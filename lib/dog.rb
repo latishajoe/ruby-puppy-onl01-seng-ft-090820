@@ -6,7 +6,7 @@ class Dog
   def initialize(name)
      @name = name
      @@all << self
-     save 
+     save
   end
 
   def self.clear_all
@@ -19,12 +19,12 @@ class Dog
 
   def self.print_all
     @@all.each {|dog| puts dog.name }
-  end 
+  end
 
-  def save 
-    @@all << self 
-  end 
-    
+  def save
+    @@all << self
+  end
+
 
 
 end
